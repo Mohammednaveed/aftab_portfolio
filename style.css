@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('your-background-image.jpg'); /* Add your background image */
+    background-size: cover;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about-section,
+  .skills-section,
+  .projects-section,
+  .contact-section {
+    padding: 60px 0;
+  }
+  
+  .project-item {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .project-item:hover {
+    transform: scale(1.05);
+  }
+  
+  footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  footer .social-media a:hover {
+    color: #3498db;
+  }
+  
+  /* CSS Animations */
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
